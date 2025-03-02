@@ -1,7 +1,8 @@
 ## ÇALIŞMA ŞEKLİ
 1. Mekanikleri Hayday oyunu ile aynıdır.
 2. Landscape modunda çalışmaktadır.
-3. Yeni bir tür ekin eklemek için:
+3. Yeni bir bina veya tarla eklerken koyulabilir veya koyulamaz feedbacki eksiktir. Bunun için bir outline bulamadım. Ancak koyulamayacak yerlerde bırakırsanız, poola geri dönüyor. Console kısmında da koyulabilir veya koyulamaz yazıları çıkıyor.
+4. Yeni bir tür ekin eklemek için:
    
    -Scripts/Enums/PlantType scriptine eklenecek ürün eklenir.
    
@@ -19,7 +20,7 @@
    
    -Hiyerarşide Canvas/Seeds../Content içerisine görsel için bir Image oluşturulur ve oluşturulan Seed scripti atanır. Ayarları yapılır.
 
-4. Yeni bir bina eklemek için:
+5. Yeni bir bina eklemek için:
 
    -ScriptableObject adımları dışında neredeyse aynıdır. Oluşturulması gerek dosyalar Scripts/Placables ve Scripts/Buildings klasörlerine oluşturulur.
    
