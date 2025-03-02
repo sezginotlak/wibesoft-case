@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e8afa0450c68f4484f0010d07fc98a, type: 3}
+  m_Name: CollectibleSO
+  m_EditorClassIdentifier: 
+  collectibleDataList:
+  - plantType: 0
+    sprite: {fileID: 21300000, guid: 72a306f9db0229248889dc240340a672, type: 3}
+  - plantType: 1
+    sprite: {fileID: -1150320630, guid: 6a4ee0d355150fa4fa4b55c70712163a, type: 3}
