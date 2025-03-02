@@ -42,6 +42,8 @@ public abstract class Placable : MonoBehaviour, IDraggable
         layoutGroup.enabled = false;
         layoutGroup.enabled = true;
 
+        if (!hasPassedUI) return;
+
         if (spawnedPlacable.TryGetComponent(out Building building))
         {
             if (!building.isPlacable)

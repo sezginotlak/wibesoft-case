@@ -1129,7 +1129,7 @@ GameObject:
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &488197392
 MeshRenderer:
@@ -1561,6 +1561,10 @@ PrefabInstance:
     - target: {fileID: 1315716995744334, guid: 2e992b7db39a4f542a0e1ad222200c67, type: 3}
       propertyPath: m_Name
       value: SM_Env_Tree_Cherry_Grown_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315716995744334, guid: 2e992b7db39a4f542a0e1ad222200c67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4899062601650160, guid: 2e992b7db39a4f542a0e1ad222200c67, type: 3}
       propertyPath: m_LocalScale.x
@@ -2170,6 +2174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Pebbles_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1586266398097874, guid: e8733f093ca0ec94f90080693cb8a852, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4562169137468792, guid: e8733f093ca0ec94f90080693cb8a852, type: 3}
       propertyPath: m_LocalScale.x
       value: 50
@@ -2459,6 +2467,10 @@ PrefabInstance:
     - target: {fileID: 1268094566149260, guid: 139e1be7a91909342869dd2cd4fac552, type: 3}
       propertyPath: m_Name
       value: SM_Env_Tree_Cherry_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268094566149260, guid: 139e1be7a91909342869dd2cd4fac552, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4941073105388382, guid: 139e1be7a91909342869dd2cd4fac552, type: 3}
       propertyPath: m_LocalScale.x

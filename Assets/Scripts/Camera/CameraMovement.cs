@@ -15,9 +15,14 @@ public class CameraMovement : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        {
+            isOverUI = true;
             return;
+        }
 
         if (!Input.GetMouseButton(0)) return;
+
+        if (isOverUI) return;
 
         Vector3 deltaMove = (-Input.mousePositionDelta * moveSpeed * Time.deltaTime);
         Vector3 moveAmount = new Vector3(deltaMove.x, 0f, deltaMove.y);
