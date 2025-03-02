@@ -33,3 +33,6 @@
 4. Kamera sistemi için Cinemachine kuruldu.
 5. Modüler bir sistem için Scriptable Object, Interface ve Abstract Classlar kullanıldı.
 
+## GÖRSELLER
+1. Görseller: (https://drive.google.com/drive/folders/1VfRcm6V5DcGkt9Rfqbt_2ppAn1h2bi5H?usp=sharing)
+
