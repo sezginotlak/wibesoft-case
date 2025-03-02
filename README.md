@@ -22,6 +22,7 @@
 4. Yeni bir bina eklemek için:
 
    -ScriptableObject adımları dışında neredeyse aynıdır. Oluşturulması gerek dosyalar Scripts/Placables ve Scripts/Buildings klasörlerine oluşturulur.
+   
    -Placable'dan miras alanlar Canvasta oluşturulan Image'e atanır ve ayarları yapılır.
 
 ## KULLANILAN TEKNOLOJİLER
